@@ -1,0 +1,1136 @@
+{"workbook":[
+  {
+    "topic": "Programming Basics questions",
+    "questions": [
+      {
+        "question": "What are the differences between objects and arrays? What is the purpose of the object and what is the purpose of the array?",
+        "answer": "Object is a collection of properties, with an association between a key and a value. Array is a list of values."
+      },
+      {
+        "question": "How can you access a key's value in an object?",
+        "answer": "With bracket notation and key names. example: object[key]"
+      },
+      {
+        "question": "How can you access the first and the last item of an array?",
+        "answer": "With bracket notation and indexes. example: array[0], array[array.length - 1]"
+      },
+      {
+        "question": "Name all the primitive types in JavaScript.",
+        "answer": "Null, Undefined, Boolean, Number, BigInt, String, Symbol"
+      }
+    ]
+  },
+    {
+      "topic": "Algorithm basics",
+      "questions": [
+        {
+          "question": "What are the assignment operators? Name some of them.",
+          "answer": "An assignment operator assigns a value to its left operand based on its right operand. example: =, +=, -=."
+        },
+        {
+          "question": "What are the arithmetic operators? Name some of them.",
+          "answer": "Arithmetic operators are used to perform numeric operations on operands. example: +, -, *."
+        },
+        {
+          "question": "What are the comparison operators? Name some of them.",
+          "answer": "Comparison operators can compare numbers or strings and perform evaluations. example: ===, !==, <."
+        },
+        {
+          "question": "What are the logical operators? Name some of them.",
+          "answer": "Logical operators are used to determine the logic between variables and values. example: &&, ||, !."
+        },
+        {
+          "question": "What is the difference between `for`, `for of` and `for in`?",
+          "answer": "In 'for' loop the indexing and conditions are choosen manually. 'for of' loops through values of an iterable object. 'for in' loops through the enumerable properties of an object."
+        },
+        {
+          "question": "How do you find the average of values in an array if you can’t use any built-in functions or methods?",
+          "answer": "Compute the sum of all elements and divide them by the length of the array."
+        }
+      ]
+    },
+    {
+      "topic": "Function basics",
+      "questions": [
+        {
+          "question": "What are the main parts of a function?",
+          "answer": "Function keyword. An optional name (can also be anonymous). List of parameters enclosed in parentheses. Statement enclosed in braces."
+        },
+        {
+          "question": "What is the difference between parameters and arguments?",
+          "answer": "Function parameters are the names listed in the function's definition. Function arguments are the real values passed to the function."
+        },
+        {
+          "question": "What are the differences between function expression and function statement?",
+          "answer": "Function expression associates a value with a variable, loads only when the interpreter reaches the definition of the function. Function statement load before any code is executed. This behavior is called hoisting, which allows the function to be used before it is defined."
+        }
+      ]
+    },
+    {
+      "topic": "OOP Basics",
+      "questions": [
+        {
+          "question": "What is a method?",
+          "answer": "A method is a function which is a property of an object."
+        },
+        {
+          "question": "Name 3 builtin functions (and/or methods) regarding strings.",
+          "answer": ".toUpperCase() - turns string to uppercase. .split() - separating a string at a given character, results in an array. .substr() - cutting out part of the string."
+        },
+        {
+          "question": "Name 3 builtin functions (and/or methods) regarding arrays.",
+          "answer": ".push() - adds a new element to the end of the array. .join() - returns a string from an array, with a given separator. .sort() - sorts an array alphabeticly, can take a funtion as an argument to specify the sorting."
+        },
+        {
+          "question": "Name 3 builtin functions (and/or methods) regarding numbers.",
+          "answer": ".toString() - turns the number to a string. Math.pow(x, y) - returns the value x to the power of y. Math.floor(x) - returns x rounded down to the nearest integer."
+        }
+      ]
+    },
+    {
+      "topic": "FP Basics",
+      "questions": [
+        {
+          "question": "What is a callback function?",
+          "answer": "A callback function is a function which is to be executed after another function has finished execution. Any function that is passed as an argument to another function so that it can be executed in that other function is a callback function."
+        },
+        {
+          "question": "What are the differences between `for` loops and `forEach`?",
+          "answer": "`forEach` executes the code for every element found in an array. `for` is flexible, can be used to iterate overall or on a subset of items."
+        }
+      ]
+    },
+    {
+      "topic": "File basics",
+      "questions": [
+        {
+          "question": "What is the difference between JavaScript data structures and JSON data structures?",
+          "answer": "JSON can be created and read by many other programming language. JSON is text only, can't contain functions or methods. JSON is presented as a string."
+        },
+        {
+          "question": "How do you create JavaScript data structure from a JSON file's data?",
+          "answer": "JSON.parse() method."
+        }
+      ]
+    },
+    {
+      "topic": "View Basics",
+      "questions": [
+        {
+          "question": "What is the difference between JavaScript data structures and DOM (HTML document) data structures?",
+          "answer": "HTML elements are the static building blocks of web pages, tree structure."
+        },
+        {
+          "question": "What are the steps of changing a HTML element's content with JavaScript?",
+          "answer": "1. target the element with querySelector, or getElementBy ID/Class/Tag. 2. select the attribute to change, like .innerHTML, .class, .id. 3. use assignement operator to assign the new value ()."
+        }
+      ]
+    },
+    {
+      "topic": "Event basics",
+      "questions": [
+        {
+          "question": "What is an event listener?",
+          "answer": "An event listener waits for user interactions (click, keypresses) and can run some code whenever that action happens."
+        },
+        {
+          "question": "What are the steps of changing a HTML element's content when the element clicked?",
+          "answer": "1. create an event listener for the element, or for the document object. 2. set first parameter of event listener to 'click'. 3. second parameter is a function which should describe the change we want to make - for example: change the taget node's inner html, class."
+        },
+        {
+          "question": "Inside a `click` event listener, how can you access the element that has been clicked?",
+          "answer": "with the target key in the event object event.target."
+        }
+      ]
+    },
+    {
+      "topic": "Design Basics",
+      "questions": [
+        {
+          "question": "What are the differences between `display: block` and `display: inline` CSS properties?",
+          "answer": "a block element always start from a new line. an inline element never start from a new line."
+        },
+        {
+          "question": "What are the differences between `position: relative` and `position: absolute` CSS properties?",
+          "answer": "position: relative - places an element relative to its current position without changing the layout around it. position: absolute - places an element relative to its parent's position and changing the layout around it."
+        },
+        {
+          "question": "What is the box model, name the CSS properties connecting to it?",
+          "answer": "the box model os used to customize the space between and around elements. Content - the content of the box. Padding - clears an area around the content - the padding is transparent. Border - a border that goes around the padding and content. Margin - clears an area outside the border - the margin is transparent."
+        },
+        {
+          "question": "What CSS properties affect font and text appearance?",
+          "answer": "style: italic / normal;. weight: bold / normal;. size: px, vh, big;. font-family;"
+        },
+        {
+          "question": "What are the steps of adding or removing a HTML element's class name?",
+          "answer": "editing the html file if it is present there. select the html element with a selector, use the .classList.add() or classList.remove() methods."
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript - language specialties",
+      "questions": [
+        {
+          "question": "What is the difference between value and reference data types in terms of object and primitives?",
+          "answer": "Primitive variables store the actual values, reference variables store the addresses of the objects they refer to."
+        },
+        {
+          "question": "Is `null` an object or a primitive?",
+          "answer": "primitive"
+        },
+        {
+          "question": "What is `undefined`?",
+          "answer": "a primitive, a variable which has no value assigned to it is undefined"
+        },
+        {
+          "question": "When to use `var`, `let`, and `const`?",
+          "answer": "'var' - never, when you want your code to run in browsers before 2015. 'let' - when you want to reassign the variable with a new value. 'const' - when you don't want to assign a new value to the variable."
+        },
+        {
+          "question": "What is hoisting?",
+          "answer": "hoisting is when a the interpretor moves the declaration of variables, functions or classes to the top of their scope, prior to executing the code"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "questions": [
+        {
+          "question": "What are the advantages of using a version control system?",
+          "answer": "Keeping track of changes, streamlineing merging and branching, access modification history, backup"
+        },
+        {
+          "question": "What’s the difference between Git and GitHub?",
+          "answer": "Git is a version control system, GitHub is a cloud-based hosting service for Git"
+        },
+        {
+          "question": "What are remote repositories in Git?",
+          "answer": "A remote repository is a repository hosted on the Internet or another network"
+        },
+        {
+          "question": "Why does a merge conflict occur?",
+          "answer": "because there are differences between two versions of a file during a merge, and it cannot be automaticly resolved"
+        }
+      ]
+    },
+    {
+      "topic": "Terminal",
+      "questions": [
+        {
+          "question": "How do you run a JavaScript file in the terminal?",
+          "answer": "With the help of Node.js (compiler/ runtime environment) / node 'filename' /"
+        },
+        {
+          "question": "How do you stop a running a command in the terminal?",
+          "answer": "with ctr + c"
+        },
+        {
+          "question": "How go you get the previous command in the terminal?",
+          "answer": "with the up_arrow key"
+        },
+        {
+          "question": "How do you got to the current directory's parent directory in the terminal?",
+          "answer": "with cd .. you can go to the parent directory"
+        }
+      ]
+    },
+    {
+      "topic": "Functional patterns",
+      "questions": [
+        {
+          "question": "What is a callback function?",
+          "answer": "A callback function is a function passed into another function as argument."
+        },
+        {
+          "question": "What is ECMA script ? What is the difference between Javascript & ECMA script ?",
+          "answer": "Javascript is a general purpose scripting language that conforms to the ECMAScript specification. The ECMAScript specification is a blueprint for creating a scripting language."
+        },
+        {
+          "question": "What is the difference between `let` & `var` ?",
+          "answer": "let declares a variable limited to the scope of the block. var declares a variable globally, or locally to an entire function regardless of blockscope."
+        },
+        {
+          "question": "Write an example where using the `var` declaration instead of the `let` could create a hard to debug code.",
+          "answer": "?? something something wrong scope"
+        },
+        {
+          "question": "Give a practical example where you would use the `reduce` function in javascript.",
+          "answer": "Summing up numbers with a condition. When I need 1 thing returned after iteration."
+        },
+        {
+          "question": "Give a practical example where you would use the `map` function in javascript.",
+          "answer": "Creating a HTML element for every object in an array."
+        },
+        {
+          "question": "Give a practical example where you would use the `filter` function in javascript.",
+          "answer": "When I want to display elements matching the input of the user."
+        }
+      ]
+    },
+    {
+      "topic": "Web basics",
+      "questions": [
+        {
+          "question": "What is a web server?",
+          "answer": "On the software side, a web server listens on a port for a request, uses a transport protocol (HTTP, FTP), and responds with resources on valid request. On the hardware side, a web server is the computer that stores the web server software and component files, connects to the web, and supports physical data interchange with other devices."
+        },
+        {
+          "question": "Explain the client-server architecture.",
+          "answer": "Client requests a resource, and server provides the resource."
+        },
+        {
+          "question": "What is the difference between synchronous and asynchronous execution?",
+          "answer": "Synchronous execution means the task has to finish before the next task starts executing. Asynchronous execution means multiple tasks can run at the same time."
+        },
+        {
+          "question": "What is `npm`? Why is it useful?",
+          "answer": "npm is the world's largest software registry (library) and also a software packet manager and installer."
+        },
+        {
+          "question": "What is the difference between the `dependencies` & `devDependencies` in a `package.json` file ?",
+          "answer": "Dependencies are the required libraries for the software to run in production environment. DevDependencies are needed only for development purposes."
+        },
+        {
+          "question": "What would be the impact of JavaScript `fetch` if it was not asynchronous ?",
+          "answer": "Fetch makes a request to a specified web server and returns with a response. If it was synchronous, no code would execute while the data is not present."
+        },
+        {
+          "question": "Why benefits would bring to a developer to use the `Postman` application ?",
+          "answer": "Postman can test API endpoints fast and easily."
+        },
+        {
+          "question": "List the parts of the URL.",
+          "answer": "Protocol (http), subdomain (www), domain name (google), top-level domain (.com), port (80), path (image - virtual path to the requested resource), parameters (the actual values being queried), fragment (often preceded by a hash - secondary resource - often HTML element id)."
+        },
+        {
+          "question": "What is query parameter?",
+          "answer": "A defined set of parameters attached to the end of a URL, used to define the specific content or action based on the data."
+        },
+        {
+          "question": "What kind of HTTP status codes do you know?",
+          "answer": "200 - standard OK. 201 - OK, data is sent back. 204 - OK, server doesn't have to send data back. 304 - Cached data is up to date. 400 - Bad request. 401 - Access denied - authentication required. 404 - Request valid, resource can not be found. 500 - Internal server error."
+        },
+        {
+          "question": "How does an HTTP Request look like? What are the most relevant HTTP header fields?",
+          "answer": "Request line, header (method type, file type, authorization), body."
+        },
+        {
+          "question": "How does an HTTP Response look like? What are the most relevant HTTP header fields?",
+          "answer": "Status line, header (content-type, content-length, date, connection, server, content-encoding), body."
+        },
+        {
+          "question": "Why should you ignore the `node_modules` folder in `.gitignore` ?",
+          "answer": "Uploading and downloading node_modules is pointless; npm can recreate them with a single line of command."
+        }
+      ]
+    },
+    {
+      "topic": "Rest API: Serve and Fetch",
+      "questions": [
+        {
+          "question": "Why is it recommend for a developer to use the http methods `get`, `put`, `delete` ?",
+          "answer": "Making a RESTful API and using the mentioned request are common practice, makes your API easier to use."
+        },
+        {
+          "question": "How does a `POST` request look like when it is made from a web browser (on the front end written) ?",
+          "answer": "Fetch request made with the URL of the endpoint, request method is specified in the header (POST), type of data is specified."
+        },
+        {
+          "question": "What is an API?",
+          "answer": "Application Programming Interface; allows two or more computers to communicate."
+        },
+        {
+          "question": "What is REST API?",
+          "answer": "A REST API is an API which conforms to the design principles of the REST (representational state transfer) architectural style, including uniform interface, client-server decoupling, statelessness, cacheability, layered system architecture, and code on demand."
+        },
+        {
+          "question": "What is JSON and how do we use it?",
+          "answer": "JavaScript Object Notation; a lightweight format for storing and transporting data."
+        },
+        {
+          "question": "What is API versioning ?",
+          "answer": "It is the practice of managing changes to an API and ensuring that these changes are made without disrupting users."
+        },
+        {
+          "question": "Give 3 examples of HTTP response status codes ? Explain what each number means.",
+          "answer": "200 - standard OK. 201 - OK, data is sent back. 204 - OK, server doesn't have to send data back. 304 - Cached data is up to date. 400 - Bad request. 401 - Access denied - authentication required. 404 - Request valid, resource can not be found. 500 - Internal server error."
+        }
+      ]
+    },
+    {
+      "topic": "Advanced JavaScript",
+      "questions": [
+        {
+          "question": "How does the `ternary operator` looks like in javascript?",
+          "answer": "Statement ? this happens if true : else this."
+        },
+        {
+          "question": "How to import a function from another module in JavaScript?",
+          "answer": "Export {function}. Import {function} from './functions.js'."
+        },
+        {
+          "question": "What is a shallow copy on an object?",
+          "answer": "When a copy of an object shares references as properties, making a change in either changes both objects."
+        },
+        {
+          "question": "What is a callback function? Tell some examples of its usage.",
+          "answer": "A callback function is a function passed into another function as an argument. Examples include JavaScript methods (map, reduce, setTimeout) and event listeners."
+        },
+        {
+          "question": "What is object destructuring in javascript?",
+          "answer": "It is an expression which allows us to access the data from objects and assign it to new variables, like const {a, b} = object."
+        },
+        {
+          "question": "What is array destructuring in javascript?",
+          "answer": "It is an expression which allows us to access the data from arrays and assign it to new variables, like const [a, b] = array."
+        },
+        {
+          "question": "What is the spread operator in `js` ?",
+          "answer": "The JavaScript spread operator ( ... ) allows us to quickly copy all or part of an existing array or object into another array or object, like const newArray = [...oldArray, newItem]."
+        },
+        {
+          "question": "What are the differences between the `arrow` function and the regular `function`?",
+          "answer": "Arrow functions can only be expressed, not declared, and they are not reusable."
+        },
+        {
+          "question": "What is the `import` keyword used for?",
+          "answer": "Import declaration is used to import read-only which are exported by another module; in order to use it, the file must be interpreted as a module."
+        },
+        {
+          "question": "What is the `required` used for?",
+          "answer": "In NodeJS, require() is a built-in function to include external modules that exist in separate files. Require can be called anywhere inside the program, whereas import cannot be called conditionally; it always runs at the beginning of the file."
+        },
+        {
+          "question": "What are template literals?",
+          "answer": "Template literals are literals delimited with backtick ( ` ) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates."
+        }
+      ]
+    },
+    {
+      "topic": "Testing basics",
+      "questions": [
+        {
+          "question": "What is code coverage? Why is it used?",
+          "answer": "Code coverage is a percentage representing how much of the code run at least once. It helps understand how much of the source is tested."
+        },
+        {
+          "question": "What is a test case? What is an assertion? Give examples!",
+          "answer": "A test case is an action required to verify a specific feature or functionality. An assertion is a boolean which is true if the software passed the test. Example: Test case - Verify login functionality. Assertion - Expect true when valid credentials are provided."
+        },
+        {
+          "question": "What are the unit testing best practices? (Eg. how many assertion should a test case contain?)",
+          "answer": "Unit testing best practices include writing appropriate test names, creating simple tests, crafting deterministic tests, addressing a single use-case, aiming for maximum test coverage, designing unit tests to be as fast as possible, minimizing test dependencies, and adopting test automation."
+        },
+        {
+          "question": "What is arrange/act/assert pattern?",
+          "answer": "The idea is to develop a unit test by following these 3 simple steps: Arrange – setup the testing objects and prepare the prerequisites for your test. Act – perform the actual work of the test. Assert – verify the result."
+        },
+        {
+          "question": "How do you test asynchronous code with `jest` ?",
+          "answer": "For async/await, developers can declare their test function as async and use the await keyword to wait for asynchronous operations to complete. Jest will automatically detect when the test function returns a promise and wait for it to resolve or reject."
+        },
+        {
+          "question": "What is `setup` & `teardown` in jest ?",
+          "answer": "Often while writing tests you have some setup work that needs to happen before tests run, and you have some finishing work that needs to happen after tests run. Jest provides helper functions to handle this."
+        },
+        {
+          "question": "Give an example when you would use in `jest` the `toBe` & `toEqual` assertions.",
+          "answer": "toBe compares the referential identity of values, while toEqual does a deep comparison of the properties of the values."
+        }
+      ]
+    },
+    {
+      "topic": "React basics",
+      "questions": [
+        {
+          "question": "What benefits does it bring for a developer to use `components` (opposed of writing all the code in a single file) ?",
+          "answer": "Code is easier to understand, easier to modify, and easier to implement new features."
+        },
+        {
+          "question": "What is the difference between Element and Component?",
+          "answer": "An element is a singular object in the DOM, while a component can be a collection of one or more elements wrapped in a single element."
+        },
+        {
+          "question": "How do you pass values between components in `react`?",
+          "answer": "With prop drilling downwards and states upwards."
+        },
+        {
+          "question": "What is `key` prop?",
+          "answer": "It allows React to identify component instances."
+        },
+        {
+          "question": "How does a child component pass data to its parent component ?",
+          "answer": "By lifting state up and passing the state setter and the state to the child, and changing the state in the child component."
+        },
+        {
+          "question": "Write the code to create in JSX an HTML DIV element that has the innerText the contents of the variable `let name = 'Andrew'`",
+          "answer": "<div>{name}</div>"
+        },
+        {
+          "question": "Write the code to create in JSX an unordered list from the array `let names = [\"Mathew\", \"John\", \"Maverik\"]`",
+          "answer": "<ul>{names.map((name) => {<li>{name}</li>})}<ul>"
+        },
+        {
+          "question": "Write the code to set the background color red of a div in JSX.",
+          "answer": "<div style={{ backgroundColor: 'red' }}></div>"
+        }
+      ]
+    },
+    {
+      "topic": "Testing react",
+      "questions": [
+        {
+          "question": "What are unit tests, integration tests? What is the major difference between these two?",
+          "answer": "Unit tests always take results from a single unit, such as a function call, while integration tests may aggregate results from various parts and sources."
+        },
+        {
+          "question": "What is unit testing?",
+          "answer": "Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually scrutinized for proper operation."
+        },
+        {
+          "question": "What does `mocking` mean from a testing perspective ? Give an example when you would use it.",
+          "answer": "Mock testing refers to the process of replacing code with mock code to isolate and test the real code's behaviors."
+        },
+        {
+          "question": "How do you test that function was called `at least` 2 times using `jest` ?",
+          "answer": "MockReturnValueOnce."
+        },
+        {
+          "question": "Name 4 benefits a developer gets from writing tests.",
+          "answer": "Spot ambiguities early, write better code in the first place, better design, easier debugging, up-to-date code documentation, measure progress, catch regression early, refactor with confidence."
+        }
+      ]
+    },
+    {
+      "topic": "React patterns",
+      "questions": [
+        {
+          "question": "What is the difference between Real DOM and Virtual DOM?",
+          "answer": "A virtual DOM object is the same as a real DOM object, except that it is a lightweight copy. This means that it cannot manipulate on-screen elements. Moreover, upon any change of a property, it only updates the corresponding nodes and not the entire tree. That makes it a quick and efficient alternative."
+        },
+        {
+          "question": "When adding an item to an array, why is it necessary to pass a new array to the `useState` hook ?",
+          "answer": "States are storing references, not the exact data in the case of arrays and objects. Creating a new array means new references."
+        },
+        {
+          "question": "Describe what techniques or tools you use to debug a react app.",
+          "answer": "Reading the error message and finding the cause of the problem."
+        },
+        {
+          "question": "What is the difference between a react `class` component & a `functional` component ?",
+          "answer": "At this point, mostly syntax. Class components, however, are deprecated. Functional components are more readable, less verbose, and do not utilize lifecycle hooks."
+        },
+        {
+          "question": "Name 3 lifecycle states in a react `functional` component.",
+          "answer": "Mounting, updating, unmounting."
+        },
+        {
+          "question": "What is conditional rendering in `react` ? Give an example.",
+          "answer": "Conditional rendering is when a condition determines what is rendered. For example, {true ? <div>true</div> : <div>false</div>}."
+        }
+      ]
+    },
+    {
+      "topic": "Mongo & mongoose",
+      "questions": [
+        {
+          "question": "What is a database schema ?",
+          "answer": "A database schema is considered the 'blueprint' of a database, which describes how the data may relate to other tables or other data models."
+        },
+        {
+          "question": "Why is the `id` unique in a database ?",
+          "answer": "To make identification, sorting, and filtering easier and faster."
+        },
+        {
+          "question": "What are the advantages & disadvantages of using `lean()` function in a mongo query ?",
+          "answer": "The lean() method makes queries faster and less memory-intensive, but the result documents are JS objects, not Mongoose documents. If no modification is made in the DB (like GET requests), it is most likely worth to use lean()."
+        },
+        {
+          "question": "Write the code to store the object `{name: 'Andrew', age: 10}` to a mongo database. You can ignore the part of connection parameters.",
+          "answer": "Create Schema: const mongoose = require(mongoose); const { Schema } = mongoose; const PersonSchema = new Schema({ name: String, age: Number }); const andrew = {name: 'Andrew', age: 10}; const save = (person) => { const savedPerson = await Person.create(person); }; save(andrew);"
+        },
+        {
+          "question": "Write the code to delete from a mongo database all employees that are over 18 years. The scheme for an employee is `{name: string, age: int}`. You can ignore the part of connection parameters.",
+          "answer": "const deleted = await Person.deleteMany({age: {$gt: 18}});"
+        },
+        {
+          "question": "Write the code to display in the console from a mongo database the employees who are over 18 years. The scheme for an employee is `{name: string, age: int}`. You can ignore the part of connection parameters.",
+          "answer": "const oldPeople = await Person.find({age: {$gt: 18}}); console.log(oldPeople);"
+        },
+        {
+          "question": "Write the code to update from a mongo database the employees with name='John' and set the new age to 8. The scheme for an employee is `{name: string, age: int}`. You can ignore the part of connection parameters.",
+          "answer": "const john = await Person.find({name: 'John'}); john.age = 8; const saved = await Person.save(john);"
+        }
+      ]
+    },
+    {
+      "topic": "Authentication (cookies + google)",
+      "questions": [
+        {
+          "question": "How to properly store passwords?",
+          "answer": "With encryption."
+        },
+        {
+          "question": "What is encryption and decryption?",
+          "answer": "Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it. Decryption is the process of converting an encrypted message back to its original (readable) format."
+        },
+        {
+          "question": "What is hashing?",
+          "answer": "Hashing is a technique used in database management systems to search for the location of data without making use of an index structure."
+        },
+        {
+          "question": "What is OAuth2?",
+          "answer": "OAuth 2.0, which stands for “Open Authorization,” is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user."
+        },
+        {
+          "question": "What is the difference between encryption and hashing? When would you use which?",
+          "answer": "Encryption is two-way, meaning the data can be decrypted so it is readable again. Hashing, on the other hand, is one-way, meaning the plaintext is scrambled into a unique digest, through the use of a salt, that cannot be decrypted."
+        },
+        {
+          "question": "How/where would you store sensitive data (like db password, API key, ...) of your application?",
+          "answer": "Store your API key and secret directly in your environment variables. Environment variables are dynamic objects whose values are set outside of the application."
+        },
+        {
+          "question": "What is a JSON Web Token (JWT)?",
+          "answer": "JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object."
+        }
+      ]
+    },
+    {
+      "topic": "Node.js basics",
+      "questions": [
+        {
+          "question": "What is Node.js?",
+          "answer": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser."
+        },
+        {
+          "question": "What is the `require` used for?",
+          "answer": "In NodeJS, require() is a built-in function to include external modules that exist in separate files."
+        },
+        {
+          "question": "How to create a server in `node.js`?",
+          "answer": "With the `http` module, const http = require('http'); http.createServer((request, response) => { response.end('Hello World\n'); }).listen(8080);"
+        },
+        {
+          "question": "Explain the purpose of the `fs` module in `node.js`.",
+          "answer": "The fs module provides a lot of very useful functionality to access and interact with the file system in a `node.js` application."
+        },
+        {
+          "question": "What is the `path` module in `node.js` used for?",
+          "answer": "The path module provides utilities for working with file and directory paths."
+        },
+        {
+          "question": "What is a buffer in `node.js`?",
+          "answer": "A buffer is a temporary memory to store the binary data, which is being transferred from one location to another location."
+        },
+        {
+          "question": "What are streams in `node.js`?",
+          "answer": "Streams are objects that let you read data from a source or write data to a destination in continuous fashion."
+        }
+      ]
+    },
+    {
+      "topic": "Java ecosystem",
+      "questions": [
+        {
+          "question": "What is the JVM?",
+          "answer": "A Java Virtual Machine (JVM) is a program that interprets Java bytecode to run as a program by providing a runtime environment that executes this process."
+        },
+        {
+          "question": "What does Java compilation mean?",
+          "answer": "Compiling a Java program means taking the programmer-readable text in your program file (also called source code) and converting it to bytecodes, which are platform-independent instructions for the Java VM."
+        },
+        {
+          "question": "What is Java bytecode?",
+          "answer": "Java Byte Code is the language to which Java source is compiled and the Java Virtual Machine understands. Unlike compiled languages that have to be specifically compiled for each different type of computers, a Java program only needs to be converted to byte code once, after which it can run on any platform for which a Java Virtual Machine exists."
+        },
+        {
+          "question": "What is the difference between the JRE and the JDK?",
+          "answer": "JDK is for development purpose whereas JRE is for running the java programs. JDK and JRE both contains JVM so that we can run our java program."
+        },
+        {
+          "question": "What is the `Iterable` interface?",
+          "answer": "Iterable in Java is an interface that provides the functionality of accessing elements of a collection one by one."
+        },
+        {
+          "question": "What is the `Collection` interface?",
+          "answer": "The Collection interface is used to pass around collections of objects where maximum generality is desired."
+        },
+        {
+          "question": "What is the `Map` interface?",
+          "answer": "The Map interface includes methods for basic operations (such as put, get, remove, containsKey, containsValue, size, and empty), bulk operations (such as putAll and clear), and collection views (such as keySet, entrySet, and values)."
+        },
+        {
+          "question": "Compare sets, lists, and queues in Java.",
+          "answer": "List, Set and Queue are interfaces extending the Collection interface - List is ordered and can have duplicate elements - Set cannot contain duplicate elements - Queue follows a FIFO approach"
+        },
+        {
+          "question": "Compare `ArrayList` and `LinkedList` in Java.",
+          "answer": "ArrayList - elements can be dynamically added and removed - Linked List - sequence of links each link contains  a connection to another link"
+        },
+        {
+          "question": "Are sets sorted in Java?",
+          "answer": "HashSet does not guarantee sorted items, there is a special interface for it - SortedSet"
+        }
+      ]
+    },
+    {
+      "topic": "Language features",
+      "questions": [
+        {
+          "question": "What control statements are available in Java?",
+          "answer": "if, switch statements - do while, while, for, for-each loops - break, continue"
+        },
+        {
+          "question": "Compare the different looping constructs in Java.",
+          "answer": "for-loop - number of repeats can be directly controlled - for-each - iterates on a collection, array - while - repeats while condition is true - do-while - checks the condition after"
+        },
+        {
+          "question": "Compare the different conditional constructs in Java.",
+          "answer": "if statement - runs the code block if the statement evaluates to true - if-else - extension of if statement, there are different code blocks for both condition - switch statement - multiple cases, each one with a corresponding block of code"
+        },
+        {
+          "question": "What is a `while` loop?",
+          "answer": "a loop which repeats until a condition is met"
+        },
+        {
+          "question": "How do you manually break out of a loop?",
+          "answer": "with the break statement"
+        },
+        {
+          "question": "What does the `var` keyword mean?",
+          "answer": "variables initialized with var keyword getting a type at compile time"
+        },
+        {
+          "question": "What are _lambda expressions_? How are they used in Java development?",
+          "answer": "A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method."
+        }
+      ]
+    },
+    {
+      "topic": "Type system",
+      "questions": [
+        {
+          "question": "What are primitive types in Java? Give some examples.",
+          "answer": "int, byte, short, long, float, double, char, boolean,"
+        },
+        {
+          "question": "What is the difference between primitive types and reference types?",
+          "answer": "primitive types are stored directly in memory, reference types store a reference to an object"
+        },
+        {
+          "question": "What is a class in Java?",
+          "answer": "a class represents a group of objects having similar properties and behavior"
+        },
+        {
+          "question": "What is an object in Java?",
+          "answer": "an object is an instance of a class, with its own identity, behavior and state"
+        },
+        {
+          "question": "What is a constructor?",
+          "answer": "a constructor is a block of code used to create an instance of a corresponding class"
+        },
+        {
+          "question": "What is an `enum` in Java?",
+          "answer": "An enum type is a special data type that enables for a variable to be a set of predefined constants. The variable must be equal to one of the values that have been predefined for it."
+        },
+        {
+          "question": "Explain the difference between a class and an enum.",
+          "answer": "The difference is that enum constants are public, static and final (unchangeable - cannot be overridden). An enum cannot be used to create objects, and it cannot extend other classes (but it can implement interfaces)."
+        },
+        {
+          "question": "Explain the difference between a class and a record.",
+          "answer": "Records are immutable data classes that require only the type and name of fields."
+        },
+        {
+          "question": "What are interfaces? Why should we use them?",
+          "answer": "An interface in Java is a blueprint of a behaviour. A Java interface contains static constants and abstract methods. The interface in Java is a mechanism to achieve abstraction."
+        },
+        {
+          "question": "What is inheritance?",
+          "answer": "In Java, Inheritance means creating new classes based on existing ones. A class that inherits from another class can reuse the methods and fields of that class. In addition, you can add new fields and methods to your current class as well."
+        },
+        {
+          "question": "Is multiple inheritance allowed in Java?",
+          "answer": "no"
+        },
+        {
+          "question": "What is a static class member?",
+          "answer": "it means the particular member belongs to the class itself, rather than to an instance of the class"
+        },
+        {
+          "question": "Can a static method use non-static members?",
+          "answer": "a static method can only access static data members and static methods"
+        },
+        {
+          "question": "What does the `final` keyword mean in Java?",
+          "answer": "access modifier which makes classes, attributes and methods non-modifiable"
+        },
+        {
+          "question": "What does the `abstract` keyword mean in Java?",
+          "answer": "non-access modifier, an abstract class cannot be used to create objects"
+        },
+        {
+          "question": "What is _overloading_ in Java?",
+          "answer": "Method overloading in java is a feature that allows a class to have more than one method with the same name, but with different parameters."
+        },
+        {
+          "question": "What is _overriding_ in Java?",
+          "answer": "Technically, overriding is a function that requires a subclass or child class to provide a variety of method implementations, that are already provided by one of its superclasses or parent class"
+        },
+        {
+          "question": "What is the difference between overloading and overriding?",
+          "answer": "overloading : same method name with different parameters - both can be called - overriding : creating a new implementation of one of the super class' methods"
+        },
+        {
+          "question": "What is `null`?",
+          "answer": "keyword, means the object refers to nothing"
+        },
+        {
+          "question": "Compare the access modifiers in Java.",
+          "answer": "public - declarations are visible everywhere - protected - declarations are visible within the package or all subclasses - default - declarations are visible only within the package - package private - private - declarations are visible within the class only"
+        },
+        {
+          "question": "What is the default access modifier in a class?",
+          "answer": "default (package private) - visible only within the package"
+        },
+        {
+          "question": "What is the purpose of the `equals()` method?",
+          "answer": "compares two strings, returns true if the strings are equal"
+        },
+        {
+          "question": "What is the difference between `==` and `equals()`?",
+          "answer": "'==' compares memory location, equals compares content"
+        },
+        {
+          "question": "What is the difference between `long` and `Long`?",
+          "answer": "long is a primitive, Long is a wrapper class - represents the primitive data type as an object"
+        },
+        {
+          "question": "Which can store bigger numbers, `long` or `Long`?",
+          "answer": "they can store the same type of data"
+        },
+        {
+          "question": "What kind of packages do you know under `java.util.*`? Bring at least 3 examples.",
+          "answer": "Collection, List, Map, Scanner, Random"
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "questions": [
+        {
+          "question": "Explain the Single Responsibility Principle.",
+          "answer": "each class should have one responsibility, one reason to change"
+        },
+        {
+          "question": "Explain the Interface Segregation Principle.",
+          "answer": "clients should not be forced to implement interfaces they don't use"
+        },
+        {
+          "question": "What is _composition over inheritance_?",
+          "answer": "Inheritance establishes common behavior and interfaces for your classes, while composition combines and reuses existing classes to create more complex objects."
+        },
+        {
+          "question": "What is a model class?",
+          "answer": "A model class is typically used to 'model' the data in your application."
+        },
+        {
+          "question": "What is a service class?",
+          "answer": "a way of a client to interact with some functionality in the application."
+        },
+        {
+          "question": "Explain the Open/Closed principle.",
+          "answer": "open to addition, closed to modification"
+        },
+        {
+          "question": "Explain the Liskov Substitution Principle.",
+          "answer": "objects of a superclass should be replaceable with objects of its subclasses without breaking the application."
+        },
+        {
+          "question": "Explain the Dependency Inversion Principle.",
+          "answer": "high-level modules should not depend on low-level modules, but rather both should depend on abstractions."
+        },
+        {
+          "question": "What do we mean by the Gang of Four (GoF) Design Patterns? Can you name some of these patterns?",
+          "answer": "23 Design patterns collected by 4 authors in a book - singleton, factory, adapter, decorator, observer, strategy"
+        },
+        {
+          "question": "What are the risks associated with using the GoF design patterns?",
+          "answer": "negative design issues - miss-use of design patterns - ineffective addressing of issues"
+        },
+        {
+          "question": "What do we mean by YAGNI?",
+          "answer": "You ain't gonna need it - don!t create features that is not necessary"
+        },
+        {
+          "question": "What do we mean by SLAP?",
+          "answer": "single level of abstraction"
+        },
+        {
+          "question": "What do we mean by KISS?",
+          "answer": "keep it simple, stupid"
+        },
+        {
+          "question": "What is the Repository Pattern?",
+          "answer": "classes or components that encapsulate the logic required to access data classes"
+        },
+        {
+          "question": "What is a CRUD interface?",
+          "answer": "create, read, update, delete"
+        }
+      ]
+    },
+    {
+      "topic": "Unit testing",
+      "questions": [
+        {
+          "question": "Why is unit testing a good practice?",
+          "answer": "to isolate written code to test and determine if it works as intended. it can detect early flaws which may be more difficult to find later"
+        },
+        {
+          "question": "What is JUnit?",
+          "answer": "software testing framework, that help testing applications"
+        },
+        {
+          "question": "What is a parameterized test?",
+          "answer": "a type of data-driven testing that allows you to execute the same test, multiple times using different parameters."
+        },
+        {
+          "question": "What options do you have in NUnit to create parameterized tests?",
+          "answer": "Inline – As Test Case Attribute. Inline – As Random Attribute, Range Attribute, Values Attribute. Separate – TestCaseSource Attribute. Separate – ValueSource Attribute."
+        },
+        {
+          "question": "What is _mocking_?",
+          "answer": "a process used in unit testing when the unit being tested has external dependencies. The purpose of mocking is to isolate and focus on the code being tested"
+        },
+        {
+          "question": "What is the difference between _mocking_, _stubbing_ and _faking_?",
+          "answer": "Fakes are generally used to improve performance by avoiding external calls. Mocks are used to verify the behavior of our code. Stubs are used to provide data that our code needs to run."
+        }
+      ]
+    },
+    {
+      "topic": "Databases",
+      "questions": [
+        {
+          "question": "What are relational databases? What are their advantages and disadvantages?",
+          "answer": "they can be easily queried, allow for the use of stored procedures to manipulate data, and provide a consistent database design."
+        },
+        {
+          "question": "How do you associate entities to each other in a relational database model?",
+          "answer": "linking them up with a common table field"
+        },
+        {
+          "question": "What are tables in a relational database?",
+          "answer": "a set of data elements (values) using a model of vertical columns (identifiable by name) and horizontal rows"
+        },
+        {
+          "question": "What is a _primary key_?",
+          "answer": "A primary key is a unique identifier for each record in a table."
+        },
+        {
+          "question": "What is a _foreign key_?",
+          "answer": "A foreign key establishes a relationship between tables by referencing the primary key of another table."
+        },
+        {
+          "question": "What does the SQL abbreviation stand for?",
+          "answer": "Structured Query Language"
+        },
+        {
+          "question": "What are some of the SQL database providers that you’ve heard of?",
+          "answer": "microsoft SQL, MySQL, OracleDB, PostgreSQL, SQLite"
+        },
+        {
+          "question": "What are SQL data types? Are there any differences in data types between different SQL databases?",
+          "answer": "Numeric data types such as: INT, TINYINT, BIGINT, FLOAT, REAL, etc. Date and Time data types such as: DATE, TIME, DATETIME, etc. Character and String data types such as: CHAR, VARCHAR, TEXT, etc. Unicode character string data types such as: NCHAR, NVARCHAR, NTEXT, etc. Binary data types such as: BINARY, VARBINARY, etc. Miscellaneous data types - CLOB, BLOB, XML, CURSOR, TABLE, etc."
+        },
+        {
+          "question": "What are _constraints_ in SQL?",
+          "answer": "Constraints in SQL Server are predefined rules and restrictions that are enforced in a single column or multiple columns, regarding the values allowed in the columns, to maintain the integrity, accuracy, and reliability of that column's data."
+        },
+        {
+          "question": "How can we program different SQL databases in Java?",
+          "answer": "with different connections"
+        },
+        {
+          "question": "Which SQL statement is used to create tables? Describe the syntax briefly.",
+          "answer": "CREATE TABLE table_name ( column1 datatype, column2 datatype, ...);"
+        },
+        {
+          "question": "Which SQL statement can be used to insert values? Describe the syntax briefly.",
+          "answer": "INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);"
+        },
+        {
+          "question": "Which SQL statement can be used to update values? Describe the syntax briefly.",
+          "answer": "UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;"
+        },
+        {
+          "question": "Which SQL statement can be used to delete rows?. Describe the syntax briefly.",
+          "answer": "DELETE FROM table_name WHERE condition;"
+        },
+        {
+          "question": "Which SQL statement can be used to create queries?. Describe the syntax briefly.",
+          "answer": "SELECT column1, column2, ... FROM table_name WHERE conditions;"
+        },
+        {
+          "question": "How can you join tables together in SQL? When should you do it?",
+          "answer": "The purpose of JOINs in SQL is to access data from multiple tables based on logical relationships between them. JOINS are used to fetch data from database tables and represent the result dataset as a separate table."
+        }
+      ]
+    },
+    {
+      "topic": "Spring and Spring Boot",
+      "questions": [
+        {
+          "question": "What is Spring Framework and what are its core features?",
+          "answer": "Spring is considered to be a secure, low-cost and flexible framework that improves coding efficiency and reduces overall application development time through efficient use of system resources. It removes tedious configuration work so that developers can focus on writing business logic."
+        },
+        {
+          "question": "Explain the main differences between Spring and Spring Boot.",
+          "answer": "Spring Boot is basically an extension of the Spring framework, which eliminates the boilerplate configurations required for setting up a Spring application."
+        },
+        {
+          "question": "How does Spring Boot simplify the configuration of Spring applications?",
+          "answer": "Spring Boot simplifies the configuration by providing pre-configured templates, easy-to-use configuration files, and annotations to manage application settings."
+        },
+        {
+          "question": "What is a dependency injection (DI) and how does Spring support it?",
+          "answer": "Dependency injection is a technique that makes a class independent of its dependencies by decoupling the usage of an object from its creation. Spring supports DI by injecting objects into other objects or 'dependencies', allowing for loose coupling of components and moving the responsibility of managing components onto the container."
+        },
+        {
+          "question": "How can you define a bean in Spring? Provide examples.",
+          "answer": "A bean is an object managed by the Spring IoC container. It is instantiated, assembled, and managed by Spring. For example, in XML configuration, a bean can be defined using <bean> tags with properties and dependencies."
+        },
+        {
+          "question": "What is inversion of control (IoC) and how is it implemented in Spring?",
+          "answer": "Inversion of Control (IoC) is a programming principle that means giving up control of one object to another object that knows how to deal with it. Spring implements IoC through its IoC container, which creates, configures, and assembles objects, managing their entire lifecycle."
+        },
+        {
+          "question": "What is a RESTful API, and how can you develop a Web API using Spring Boot?",
+          "answer": "A RESTful API is an architectural style for an API that uses HTTP requests to access and manipulate data with CRUD operations. Spring Boot simplifies the development of Web APIs by providing annotations and features for building RESTful services, such as @RestController and @RequestMapping."
+        },
+        {
+          "question": "How do you handle HTTP requests in Spring MVC? Give an example.",
+          "answer": "HTTP requests in Spring MVC can be handled using @RestController annotation for request handling methods, and @RequestMapping annotation to set the base URL of the controller. For example, @PostMapping, @PatchMapping, @PutMapping, and @DeleteMapping annotations can be used to handle specific HTTP methods."
+        }
+      ]
+    },
+    {
+      "topic": "Entity Relationships, ORM, Spring Data",
+      "questions": [
+        {
+          "question": "What is ORM (Object Relational Mapping)? What are the benefits, when to use?",
+          "answer": "Object-Relational Mapping (ORM) is a programming technique that allows seamless mapping between a relational database and an object-oriented programming language. ORM systems bridge the gap between the two paradigms, simplifying data access and manipulation. It is beneficial when dealing with complex data models and relational databases."
+        },
+        {
+          "question": "What is JPA?",
+          "answer": "Java Persistence API (JPA) is a Java specification that provides functionality and standards for ORM tools. It facilitates the examination, control, and persistence of data between Java objects and relational databases."
+        },
+        {
+          "question": "What is the difference between JPA and Spring Data JPA?",
+          "answer": "JPA is a Java specification for ORM tools, while Spring Data JPA is a layer of abstraction over JPA. Spring Data JPA provides simplified repositories and syntax for CRUD operations, making it more flexible and easier to use."
+        },
+        {
+          "question": "What is the difference between Hibernate ORM and Spring Data JPA?",
+          "answer": "Hibernate is a specific implementation of JPA, while Spring Data JPA is a higher-level abstraction for data access. Hibernate focuses on ORM functionalities, while Spring Data JPA provides additional features like simplified repository patterns and query generation."
+        },
+        {
+          "question": "How can you configure database connection properties in a Spring Boot application?",
+          "answer": "Database connection properties in a Spring Boot application can be configured by adding dependencies like Spring Boot Starter JDBC and defining connection properties in the application.properties or application.yml file."
+        },
+        {
+          "question": "Explain the concept of cardinality in entity relationships. How does it impact the design and mapping of entities?",
+          "answer": "Cardinality defines the possible number of occurrences in one entity associated with the number of occurrences in another. It impacts the design and mapping of entities by determining the type of relationship between entities, such as One-to-One, One-to-Many, or Many-to-Many."
+        },
+        {
+          "question": "How to create a custom repository in Spring Data JPA?",
+          "answer": "To create a custom repository in Spring Data JPA, define a fragment interface with specific methods, implement the interface with method functionality, and extend the JPA repository interface of the entity with the custom interface."
+        },
+        {
+          "question": "What is the difference between FetchType.Eager and FetchType.Lazy?",
+          "answer": "FetchType.Eager retrieves associated objects regardless of whether they are accessed, while FetchType.Lazy retrieves associated objects only when directly accessed. Eager fetching may lead to performance issues due to unnecessary data retrieval."
+        }
+      ]
+    },
+    {
+      "topic": "Spring Security",
+      "questions": [
+        {
+          "question": "What are some essential features of Spring Security?",
+          "answer": "Spring Security provides features such as authentication, authorization, session management, and cryptographic techniques for securing Java applications."
+        },
+        {
+          "question": "How can you secure a Spring Boot application using Spring Security?",
+          "answer": "Spring Boot applications can be secured using Spring Security by configuring security settings, implementing authentication and authorization mechanisms, and securing endpoints using annotations and filters."
+        },
+        {
+          "question": "Explain how the security filter chain works.",
+          "answer": "The security filter chain in Spring Security consists of a series of filters that intercept incoming HTTP requests. Each filter performs a specific security-related task, such as authentication, authorization, or session management, before passing the request to the next filter in the chain."
+        },
+        {
+          "question": "What is JWT (JSON Web Token), and how can you use it for authentication?",
+          "answer": "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. It can be used for authentication by encoding user information into a token, which is then signed and sent to the client. The client includes the token in subsequent requests to authenticate and authorize access."
+        },
+        {
+          "question": "Explain the concept of authentication and authorization in Spring Security.",
+          "answer": "Authentication is the process of verifying the identity of a user, typically through credentials like username and password. Authorization is the process of determining whether a user has permission to access a resource or perform an action based on their authenticated identity."
+        },
+        {
+          "question": "How can you implement method-level security using annotations in Spring?",
+          "answer": "Method-level security can be implemented in Spring using annotations like @Secured, @PreAuthorize, and @PostAuthorize. These annotations allow developers to specify access control rules directly on methods, restricting access based on user roles or permissions."
+        }
+      ]
+    },
+    {
+      "topic": "Integration testing",
+      "questions": [
+        {
+          "question": "What is integration testing, and how does it differ from unit testing?",
+          "answer": "Integration testing verifies the interactions between different components or modules of an application, ensuring that they work together correctly. It differs from unit testing, which focuses on testing individual units or components in isolation."
+        },
+        {
+          "question": "How can you configure and set up integration tests in a Spring Boot project?",
+          "answer": "Integration tests in a Spring Boot project can be configured and set up by using testing frameworks like JUnit and libraries like Spring Boot Test. Tests can be annotated with @SpringBootTest to load the Spring application context and @AutoConfigureMockMvc to automatically configure the MockMvc."
+        },
+        {
+          "question": "How do you perform an HTTP request in an integration test for a Spring Boot application?",
+          "answer": "HTTP requests in integration tests for a Spring Boot application can be performed using the MockMvc instance, which allows developers to send HTTP requests to endpoints and assert the responses."
+        },
+        {
+          "question": "How can you mock dependencies or external services in Spring Boot integration tests?",
+          "answer": "Dependencies or external services can be mocked in Spring Boot integration tests using libraries like Mockito. Mock objects can be created to simulate the behavior of dependencies, allowing developers to control and verify interactions during testing."
+        },
+        {
+          "question": "How do you configure an embedded H2 database for integration testing in Spring Boot?",
+          "answer": "An embedded H2 database can be configured for integration testing in Spring Boot by adding the H2 dependency to the test scope, configuring data source properties in the application.properties or application.yml file, and annotating test classes with @DataJpaTest or @SpringBootTest."
+        }
+      ]
+    },
+    {
+      "topic": "DevOps",
+      "questions": [
+        {
+          "question": "What is CI/CD (Continuous Integration/Continuous Deployment), and what are its benefits?",
+          "answer": "CI/CD is a practice that automates the process of integrating code changes into a shared repository (Continuous Integration) and deploying applications to production environments (Continuous Deployment). Its benefits include faster delivery of features, improved quality through automated testing, and reduced manual errors."
+        },
+        {
+          "question": "What is Docker and Docker Compose?",
+          "answer": "Docker is a platform for developing, shipping, and running applications in containers. Docker Compose is a tool for defining and running multi-container Docker applications, allowing developers to configure complex environments using a single YAML file."
+        },
+        {
+          "question": "Explain the difference between an image and a container in Docker.",
+          "answer": "An image is a lightweight, standalone, and executable software package that includes everything needed to run an application, including code, runtime, libraries, and dependencies. A container is a running instance of an image, encapsulating the application and its environment."
+        },
+        {
+          "question": "What is a Dockerfile?",
+          "answer": "A Dockerfile is a text file that contains instructions for building a Docker image. It specifies the base image, environment variables, commands, and other configurations required to create the image."
+        },
+        {
+          "question": "How can you set up a basic CI/CD pipeline for a Spring Boot application?",
+          "answer": "A basic CI/CD pipeline for a Spring Boot application can be set up using continuous integration servers like Jenkins, Travis CI, or GitLab CI/CD. The pipeline typically involves stages for building, testing, deploying, and monitoring the application."
+        }
+      ]
+    }
+  ]}

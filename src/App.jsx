@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import WorkbookPage from "./pages/WorkbookPage.jsx";
 
 function App() {
 
   return (
-    <div>Hello</div>
+    <>
+      <WorkbookPage/>
+    </>
   )
 }
 
