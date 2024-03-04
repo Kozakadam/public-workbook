@@ -1,25 +1,26 @@
-{"workbook":[
-  {
-    "topic": "Programming Basics questions",
-    "questions": [
-      {
-        "question": "What are the differences between objects and arrays? What is the purpose of the object and what is the purpose of the array?",
-        "answer": "Object is a collection of properties, with an association between a key and a value. Array is a list of values."
-      },
-      {
-        "question": "How can you access a key's value in an object?",
-        "answer": "With bracket notation and key names. example: object[key]"
-      },
-      {
-        "question": "How can you access the first and the last item of an array?",
-        "answer": "With bracket notation and indexes. example: array[0], array[array.length - 1]"
-      },
-      {
-        "question": "Name all the primitive types in JavaScript.",
-        "answer": "Null, Undefined, Boolean, Number, BigInt, String, Symbol"
-      }
-    ]
-  },
+{
+  "workbook": [
+    {
+      "topic": "Programming Basics questions",
+      "questions": [
+        {
+          "question": "What are the differences between objects and arrays? What is the purpose of the object and what is the purpose of the array?",
+          "answer": "Object is a collection of properties, with an association between a key and a value. Array is a list of values."
+        },
+        {
+          "question": "How can you access a key's value in an object?",
+          "answer": "With bracket notation and key names. example: object[key]"
+        },
+        {
+          "question": "How can you access the first and the last item of an array?",
+          "answer": "With bracket notation and indexes. example: array[0], array[array.length - 1]"
+        },
+        {
+          "question": "Name all the primitive types in JavaScript.",
+          "answer": "Null, Undefined, Boolean, Number, BigInt, String, Symbol"
+        }
+      ]
+    },
     {
       "topic": "Algorithm basics",
       "questions": [
@@ -1132,5 +1133,31 @@
           "answer": "A basic CI/CD pipeline for a Spring Boot application can be set up using continuous integration servers like Jenkins, Travis CI, or GitLab CI/CD. The pipeline typically involves stages for building, testing, deploying, and monitoring the application."
         }
       ]
+    },
+    {
+      "topic": "Websockets",
+      "questions": [
+        {
+          "question": "What are WebSockets?",
+          "answer": "WebSockets are a communication protocol that provides full-duplex, low latency communication channels over a single, long-lived connection. They allow for real-time event-based communication between a client and a server."
+        },
+        {
+          "question": "How is a WebSocket connection established?",
+          "answer": "A WebSocket connection begins with an HTTP handshake, where the client sends an HTTP request to the server with a special 'Upgrade' header indicating the desire to establish a WebSocket connection. If the server supports WebSockets, it responds with a '101 Switching Protocols' status code, signaling the upgrade to the WebSocket protocol. Once the handshake is complete, both the client and server can exchange messages."
+        },
+        {
+          "question": "How does WebSocket communication work in web applications?",
+          "answer": "WebSocket communication enables real-time communication by allowing both the client and server to send and receive messages asynchronously without the overhead of traditional HTTP polling. This enables applications to push data from the server to the client instantly, facilitating live updates and interactive features without the need for constant client-initiated requests."
+        },
+        {
+          "question": "What are some common use cases for WebSockets in web applications?",
+          "answer": "Common use cases for WebSockets include chat applications, online gaming, live sports updates, collaborative editing tools, and financial trading platforms. Essentially, any application that requires real-time data synchronization or instant updates between clients and servers can benefit from WebSockets."
+        },
+        {
+          "question": "Commonly used WebSocket libraries, what are they good for?",
+          "answer": "WebSocket libraries like Socket.IO, ws (WebSocket), and SockJS abstract away much of the complexity of working directly with WebSocket connections, providing developers with higher-level APIs and additional features to build robust real-time applications more efficiently. Socket.IO is popular for its ease of use and cross-browser compatibility, ws is known for its simplicity and high performance, while SockJS is useful for applications that need to support older browsers or environments where WebSocket connections might be restricted."
+        }
+      ]
     }
-  ]}
+  ]
+}
