@@ -9,7 +9,7 @@
         },
         {
           "question": "How can you access a key's value in an object?",
-          "answer": "With bracket notation and key names. example: object[key]"
+          "answer": "With dot notation or bracket notation and key names. example: object[key], object.key"
         },
         {
           "question": "How can you access the first and the last item of an array?",
@@ -42,7 +42,7 @@
         },
         {
           "question": "What is the difference between `for`, `for of` and `for in`?",
-          "answer": "In 'for' loop the indexing and conditions are choosen manually. 'for of' loops through values of an iterable object. 'for in' loops through the enumerable properties of an object."
+          "answer": "In 'for' loop the indexing and conditions are chosen manually. 'for of' loops through values of an iterable object. 'for in' loops through the enumerable properties of an object."
         },
         {
           "question": "How do you find the average of values in an array if you can’t use any built-in functions or methods?",
@@ -93,7 +93,7 @@
       "questions": [
         {
           "question": "What is a callback function?",
-          "answer": "A callback function is a function which is to be executed after another function has finished execution. Any function that is passed as an argument to another function so that it can be executed in that other function is a callback function."
+          "answer": "A function which is passed to another function as an argument."
         },
         {
           "question": "What are the differences between `for` loops and `forEach`?",
@@ -132,11 +132,11 @@
       "questions": [
         {
           "question": "What is an event listener?",
-          "answer": "An event listener waits for user interactions (click, keypresses) and can run some code whenever that action happens."
+          "answer": "An event listener waits for user interactions (click, key presses) and can run some code whenever that action happens."
         },
         {
           "question": "What are the steps of changing a HTML element's content when the element clicked?",
-          "answer": "1. create an event listener for the element, or for the document object. 2. set first parameter of event listener to 'click'. 3. second parameter is a function which should describe the change we want to make - for example: change the taget node's inner html, class."
+          "answer": "Create an event listener for the element - or for the document object, set first parameter of event listener to 'click', second parameter is a function which should describe the change we want to make - for example: change the target node's inner html, class."
         },
         {
           "question": "Inside a `click` event listener, how can you access the element that has been clicked?",
@@ -149,28 +149,28 @@
       "questions": [
         {
           "question": "What are the differences between `display: block` and `display: inline` CSS properties?",
-          "answer": "a block element always start from a new line. an inline element never start from a new line."
+          "answer": "A block element always starts from a new line. An inline is placed right next to the previous element."
         },
         {
           "question": "What are the differences between `position: relative` and `position: absolute` CSS properties?",
-          "answer": "position: relative - places an element relative to its current position without changing the layout around it. position: absolute - places an element relative to its parent's position and changing the layout around it."
+          "answer": "Position: relative - places an element relative to its current position without changing the layout around it. Position: absolute - places an element relative to its parent's position and changing the layout around it."
         },
         {
           "question": "What is the box model, name the CSS properties connecting to it?",
-          "answer": "the box model os used to customize the space between and around elements. Content - the content of the box. Padding - clears an area around the content - the padding is transparent. Border - a border that goes around the padding and content. Margin - clears an area outside the border - the margin is transparent."
+          "answer": "The box model is used to customize the space between and around elements. Content - the content of the box. Padding - clears an area around the content - the padding is transparent. Border - a border that goes around the padding and content. Margin - clears an area outside the border - the margin is transparent."
         },
         {
           "question": "What CSS properties affect font and text appearance?",
-          "answer": "style: italic / normal;. weight: bold / normal;. size: px, vh, big;. font-family;"
+          "answer": "style: italic / normal; weight: bold / normal; size: px, rem, big; font-family;"
         },
         {
           "question": "What are the steps of adding or removing a HTML element's class name?",
-          "answer": "editing the html file if it is present there. select the html element with a selector, use the .classList.add() or classList.remove() methods."
+          "answer": "Select the html element with a selector, use the .classList.add() or classList.remove() methods."
         }
       ]
     },
     {
-      "topic": "JavaScript - language specialties",
+      "topic": "JavaScript - language specialities",
       "questions": [
         {
           "question": "What is the difference between value and reference data types in terms of object and primitives?",
@@ -178,11 +178,11 @@
         },
         {
           "question": "Is `null` an object or a primitive?",
-          "answer": "primitive"
+          "answer": "Primitive (it`s data type is object)"
         },
         {
           "question": "What is `undefined`?",
-          "answer": "a primitive, a variable which has no value assigned to it is undefined"
+          "answer": "A primitive, a variable which has no value assigned to it is undefined"
         },
         {
           "question": "When to use `var`, `let`, and `const`?",
@@ -190,7 +190,7 @@
         },
         {
           "question": "What is hoisting?",
-          "answer": "hoisting is when a the interpretor moves the declaration of variables, functions or classes to the top of their scope, prior to executing the code"
+          "answer": "Hoisting is when a the interpreter moves the declaration of variables, functions or classes to the top of their scope, prior to executing the code"
         }
       ]
     },
@@ -199,7 +199,7 @@
       "questions": [
         {
           "question": "What are the advantages of using a version control system?",
-          "answer": "Keeping track of changes, streamlineing merging and branching, access modification history, backup"
+          "answer": "Keeping track of changes, streamlining merging and branching, access modification history, backup"
         },
         {
           "question": "What’s the difference between Git and GitHub?",
@@ -211,7 +211,7 @@
         },
         {
           "question": "Why does a merge conflict occur?",
-          "answer": "because there are differences between two versions of a file during a merge, and it cannot be automaticly resolved"
+          "answer": "Because there are differences between two versions of a file during a merge, and it cannot be automatically resolved"
         }
       ]
     },
@@ -223,16 +223,16 @@
           "answer": "With the help of Node.js (compiler/ runtime environment) / node 'filename' /"
         },
         {
-          "question": "How do you stop a running a command in the terminal?",
-          "answer": "with ctr + c"
+          "question": "How do you stop a running command in the terminal?",
+          "answer": "With ctr + c"
         },
         {
-          "question": "How go you get the previous command in the terminal?",
-          "answer": "with the up_arrow key"
+          "question": "How do you get the previous command in the terminal?",
+          "answer": "With the up_arrow key"
         },
         {
-          "question": "How do you got to the current directory's parent directory in the terminal?",
-          "answer": "with cd .. you can go to the parent directory"
+          "question": "How do you get to the current directory's parent directory in the terminal?",
+          "answer": "With cd .. you can go to the parent directory"
         }
       ]
     },
@@ -244,12 +244,12 @@
           "answer": "A callback function is a function passed into another function as argument."
         },
         {
-          "question": "What is ECMA script ? What is the difference between Javascript & ECMA script ?",
+          "question": "What is ECMA script? What is the difference between Javascript & ECMA script?",
           "answer": "Javascript is a general purpose scripting language that conforms to the ECMAScript specification. The ECMAScript specification is a blueprint for creating a scripting language."
         },
         {
           "question": "What is the difference between `let` & `var` ?",
-          "answer": "let declares a variable limited to the scope of the block. var declares a variable globally, or locally to an entire function regardless of blockscope."
+          "answer": "let declares a variable limited to the scope of the block. var declares a variable globally, or locally to an entire function regardless of block scope."
         },
         {
           "question": "Write an example where using the `var` declaration instead of the `let` could create a hard to debug code.",
@@ -278,7 +278,7 @@
         },
         {
           "question": "Explain the client-server architecture.",
-          "answer": "Client requests a resource, and server provides the resource."
+          "answer": "Many clients can request resources, and a centralized server provides the resource."
         },
         {
           "question": "What is the difference between synchronous and asynchronous execution?",
@@ -297,7 +297,7 @@
           "answer": "Fetch makes a request to a specified web server and returns with a response. If it was synchronous, no code would execute while the data is not present."
         },
         {
-          "question": "Why benefits would bring to a developer to use the `Postman` application ?",
+          "question": "What benefits would bring to a developer to use the `Postman` application ?",
           "answer": "Postman can test API endpoints fast and easily."
         },
         {
@@ -330,7 +330,7 @@
       "topic": "Rest API: Serve and Fetch",
       "questions": [
         {
-          "question": "Why is it recommend for a developer to use the http methods `get`, `put`, `delete` ?",
+          "question": "Why is it recommended for a developer to use the http methods `get`, `put`, `delete` ?",
           "answer": "Making a RESTful API and using the mentioned request are common practice, makes your API easier to use."
         },
         {
@@ -343,7 +343,7 @@
         },
         {
           "question": "What is REST API?",
-          "answer": "A REST API is an API which conforms to the design principles of the REST (representational state transfer) architectural style, including uniform interface, client-server decoupling, statelessness, cacheability, layered system architecture, and code on demand."
+          "answer": "A REST API is an API which conforms to the design principles of the REST (representational state transfer) architectural style, including uniform interface, client-server decoupling, statelessness, cache-ability, layered system architecture, and code on demand."
         },
         {
           "question": "What is JSON and how do we use it?",
@@ -1155,7 +1155,7 @@
         },
         {
           "question": "Commonly used WebSocket libraries, what are they good for?",
-          "answer": "WebSocket libraries like Socket.IO, ws (WebSocket), and SockJS abstract away much of the complexity of working directly with WebSocket connections, providing developers with higher-level APIs and additional features to build robust real-time applications more efficiently. Socket.IO is popular for its ease of use and cross-browser compatibility, ws is known for its simplicity and high performance, while SockJS is useful for applications that need to support older browsers or environments where WebSocket connections might be restricted."
+          "answer": "WebSocket libraries like Socket.IO, ws (WebSocket), and SockJS abstract away much of the complexity of working directly with WebSocket connections, providing developers with higher-level APIs and additional features. Socket.IO is popular for its ease of use, room system, and cross-browser compatibility, ws is known for its simplicity and high performance, while SockJS is useful for applications that need to support older browsers or environments where WebSocket connections might be restricted."
         }
       ]
     }
